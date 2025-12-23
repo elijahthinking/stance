@@ -1,0 +1,119 @@
+[
+  {
+    "id": "1",
+    "image": "shoes01-1.jpg",
+    "title": "PACEY",
+    "sub1": "에어 라이트 러너",
+    "price1": "129000",
+    "price2": "109000",
+    "category": "best"
+  },
+  {
+    "id": "2",
+    "image": "shoes02-1.jpg",
+    "title": "PACEY",
+    "sub1": "노바 스피드 러너",
+    "price1": "139000",
+    "price2": "119000",
+    "category": "best"
+  },
+  {
+    "id": "3",
+    "image": "shoes03-1.jpg",
+    "title": "PACEY",
+    "sub1": "에어로 플렉스",
+    "price1": "149000",
+    "price2": "129000",
+    "category": "best"
+  },
+  {
+    "id": "4",
+    "image": "shoes04-1.jpg",
+    "title": "PACEY",
+    "sub1": "어반 스텝 러너",
+    "price1": "119000",
+    "price2": "99000",
+    "category": "best"
+  },
+  {
+    "id": "5",
+    "image": "shoes05-1.jpg",
+    "title": "PACEY",
+    "sub1": "스카이 대쉬",
+    "price1": "159000",
+    "price2": "135000",
+    "category": "best"
+  },
+  {
+    "id": "6",
+    "image": "shoes06-1.jpg",
+    "title": "PACEY",
+    "sub1": "라이트웨이브 러너",
+    "price1": "125000",
+    "price2": "105000",
+    "category": "best"
+  },
+  {
+    "id": "7",
+    "image": "shoes07-1.jpg",
+    "title": "PACEY",
+    "sub1": "펄스 런",
+    "price1": "145000",
+    "price2": "122000",
+    "category": "best"
+  },
+  {
+    "id": "8",
+    "image": "shoes08-1.jpg",
+    "title": "PACEY",
+    "sub1": "스트리트 에어",
+    "price1": "115000",
+    "price2": "95000",
+    "category": "best"
+  },
+  {
+    "id": "9",
+    "image": "shoes09-1.jpg",
+    "title": "PACEY",
+    "sub1": "제니스 러너",
+    "price1": "165000",
+    "price2": "140000",
+    "category": "best"
+  },
+  {
+    "id": "10",
+    "image": "shoes10-1.jpg",
+    "title": "PACEY",
+    "sub1": "플로우 런",
+    "price1": "135000",
+    "price2": "115000",
+    "category": "best"
+  },
+  {
+    "id": "11",
+    "image": "shoes11-1.jpg",
+    "title": "CLOUD FIT",
+    "sub1": "클라우드 핏",
+    "price1": "155000",
+    "price2": "132000",
+    "category": "pick"
+  },
+  {
+    "id": "12",
+    "image": "shoes12-1.jpg",
+    "title": "MOVE AIR",
+    "sub1": "무브 에어",
+    "price1": "120000",
+    "price2": "99000",
+    "category": "pick"
+  },
+  {
+    "id": "13",
+    "image": "shoes13-1.jpg",
+    "title": "RAPID X",
+    "sub1": "래피드 엑스",
+    "price1": "170000",
+    "price2": "145000",
+    "category": "pick"
+  }
+]

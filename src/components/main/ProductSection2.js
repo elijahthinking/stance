@@ -1,11 +1,11 @@
 import listDate from "../../assets/data/Item.json";
 import "./ProductSection.scss";
 
-const ProductSection = () => {
-  const bestItems = listDate.filter((item) => item.category === "best");
+const ProductSection2 = () => {
+  const bestItems = listDate.filter((item) => item.category === "pick");
   return (
-    <section id="best-seller">
-      <h2>BEST SELLER</h2>
+    <section id="paceypick">
+      <h2>PACEY PICK</h2>
       <ul>
         {bestItems.map((item, idx) => (
           <li key={idx}>
@@ -29,4 +29,4 @@ const ProductSection = () => {
   );
 };
 
-export default ProductSection;
+export default ProductSection2;
