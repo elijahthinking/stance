@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import "./BannerSection.scss"
 const images = [
   "/images/banner01.png",
@@ -8,9 +9,26 @@ const images = [
 ];
 
 const BannerSection = () => {
+  const [ current, setCurrent ] = useState(0);
+
+  //자동슬라이드
+  useEffect(()=>{
+    const interval = setInterval(()=>{
+      setCurrent((prev) => (prev + 1) % images.length);
+    }, 3000); //3초 마다 이동
+    return () => clearInterval(interval);
+  },[]);
   return (
     <section id="banner">
-      BannerSectiona
+      <div
+        className="banner-track"
+        style={{ transform: `translateX(-${current * 100}%)` }}
+      >
+        {images.map((img,idx) => (
+          <div className="banner-slide" key={idx}>
+            </div>
+        ))}
+      </div>
       </section>
   )
 }
