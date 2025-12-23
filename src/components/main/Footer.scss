@@ -1,0 +1,113 @@
+/* src/components/main/Footer.scss */
+
+$primary-blue: #0066ff;
+$secondary-blue: #7fb3ff;
+
+.footer-container {
+  width: 100%;
+  border-top: 1.5px solid #0066ff; // 상단 파란색 라인
+  padding: 60px 0;
+  background-color: #fff;
+
+  .footer-inner {
+    max-width: 1400px; // 이미지처럼 넓게 설정
+    margin: 0 auto;
+    display: flex; // 수평 정렬
+    align-items: flex-start;
+    padding: 0 40px;
+
+    /* 섹션 공통 설정 */
+    section {
+      padding: 0 40px;
+      
+      // 첫 번째 섹션을 제외한 나머지 왼쪽에 세로 구분선 추가
+      &:not(:first-child) {
+        border-left: 1px solid #e1e1e1;
+      }
+    }
+
+    /* 1. 왼쪽 기업 정보 섹션 */
+    .section-info {
+      flex: 2; // 가장 넓은 비중
+      padding-left: 0;
+
+      .brand-logo {
+        font-size: 28px;
+        font-weight: 900;
+        color: $primary-blue;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 30px;
+        
+        &::before {
+          content: '';
+          width: 20px;
+          height: 20px;
+          background-color: $primary-blue;
+          border-radius: 50%;
+        }
+      }
+
+      .description {
+        font-size: 11px;
+        line-height: 1.6;
+        color: $secondary-blue;
+        margin: 15px 0 30px;
+      }
+    }
+
+    /* 2. 중앙 고객센터 섹션 */
+    .section-contact {
+      flex: 1.5;
+
+      .phone {
+        font-size: 36px;
+        font-weight: 900;
+        color: $primary-blue;
+        margin: 10px 0;
+        letter-spacing: -1px;
+      }
+    }
+
+    /* 3. 오른쪽 스토리/SNS 섹션 */
+    .section-social {
+      flex: 1;
+      min-width: 180px;
+
+      .sns-icons {
+        display: flex;
+        gap: 15px;
+        margin-top: 15px;
+        
+        img, svg {
+          width: 24px;
+          height: 24px;
+          fill: $primary-blue;
+        }
+      }
+    }
+  }
+
+  /* 공통 타이틀 및 링크 스타일 */
+  .title {
+    font-size: 14px;
+    font-weight: 800;
+    color: $primary-blue;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    
+    a {
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 700;
+      color: $primary-blue;
+    }
+  }
+}
