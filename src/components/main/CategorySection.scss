@@ -1,0 +1,29 @@
+@use "../../assets/scss/mixins" as *;
+
+#runningnews {
+  h2 {
+    font-size: 2rem;
+  }
+  ul {
+    @include flex-layout();
+    width: 100%;
+    padding: 1.25rem;
+    li {
+      img {
+        width: 28.5rem;
+        height: 28.5rem;
+      }
+      p {
+        font-size: 1.25rem;
+      }
+      .news-txt {
+        @include flex-layout(row, flex-start, center, 0);
+        p {
+          font-size: 0.875rem;
+          font-weight: bolder;
+          color: var(--Primary-300);
+        }
+      }
+    }
+  }
+}

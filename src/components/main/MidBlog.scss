@@ -1,0 +1,29 @@
+@use "../../assets/scss/mixins" as *;
+
+#event {
+  padding: 2rem;
+  @include flex-layout(column);
+  background-color: var(--Static-black);
+  color: var(--Static-white);
+  .event-box {
+    @include flex-layout(row, space-between);
+    width: 50%;
+    img {
+      width: 200px;
+      height: 200px;
+    }
+    .event-txt {
+      h2 {
+        font-size: 1.75rem;
+        font-weight: 700;
+        padding-bottom: 1.75rem;
+      }
+      p {
+        font-weight: 400;
+      }
+    }
+  }
+  > p {
+    font-size: 0.875rem;
+  }
+}

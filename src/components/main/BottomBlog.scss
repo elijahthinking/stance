@@ -1,0 +1,26 @@
+@use "../../assets/scss/mixins" as *;
+
+#keyword {
+  h2 {
+  }
+  ul {
+    @include flex-layout();
+    li {
+      position: relative;
+      img {
+        width: 31rem;
+        height: 48rem;
+        background-position: center;
+        background-size: cover;
+        aspect-ratio: 1/1;
+      }
+      > h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: var(--Static-white);
+      }
+    }
+  }
+}

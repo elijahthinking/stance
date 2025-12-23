@@ -1,19 +1,29 @@
-import BannerSection from "../components/main/BannerSection"
-import CategorySection from "../components/main/CategorySection"
-import Footer from "../components/main/Footer"
-import Header from "../components/main/Header"
-import ProductSection from "../components/main/ProductSection"
+import BannerSection from "../components/main/BannerSection";
+import BannerSection2 from "../components/main/BannerSection2";
+import BottomBlog from "../components/main/BottomBlog";
+import CategorySection from "../components/main/CategorySection";
+import Footer from "../components/main/Footer";
+import Header from "../components/main/Header";
+import MidBlog from "../components/main/MidBlog";
+import ProductSection from "../components/main/ProductSection";
+import ProductSection2 from "../components/main/ProductSection2";
+import TopBlog from "../components/main/TopBlog";
 
 const MainPage = () => {
   return (
     <div className="main-page">
+      <Header />
       <BannerSection />
       <CategorySection />
-      <Footer />
-      <Header />
+      <TopBlog />
+      <BannerSection2 />
       <ProductSection />
-      </div>
-  )
-}
+      <MidBlog />
+      <ProductSection2 />
+      <BottomBlog />
+      <Footer />
+    </div>
+  );
+};
 
-export default MainPage
+export default MainPage;

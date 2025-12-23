@@ -5,6 +5,8 @@ import CartPage from "./pages/CartPage"
 import CategoryPage from "./pages/CategoryPage"
 import Footer from "./components/main/Footer"
 
+import "./assets/scss/global.scss";
+
 const App = () => {
   return (
     <BrowserRouter>
