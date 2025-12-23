@@ -3,6 +3,8 @@ import Layout from "./layout/Layout"
 import MainPage from "./pages/MainPage"
 import CartPage from "./pages/CartPage"
 import CategoryPage from "./pages/CategoryPage"
+import Footer from "./components/main/Footer"
+
 const App = () => {
   return (
     <BrowserRouter>
